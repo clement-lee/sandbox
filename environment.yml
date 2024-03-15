@@ -3,4 +3,6 @@ channels:
 dependencies:
   - r-base=4.2
   - r-rmarkdown
-  - r-tinytex
+  - r-markdown
+  - texlive
+  - pdflatex
