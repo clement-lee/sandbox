@@ -4,9 +4,5 @@ dependencies:
   - r-base=4.2
   - r-rmarkdown
   - r-markdown
-  - python
-  - pip
-  - setuptools
-  - jupyterlab
-  - pip:
-    - jupyterlab_latex
+  - r-tinytex
+
