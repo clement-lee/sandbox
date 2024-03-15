@@ -1,6 +1,6 @@
 # sandbox
 
-Click [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clement-lee/sandbox/main?urlpath=rstudio). This will open a new page with RStudio in a virtual environment (VE). If not, a page with binder at the top will open. Click **launch** and wait for the VE to be built (this may take a few minutes).
+Click [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clement-lee/sandbox/main?urlpath=rstudio). This will open a new page with RStudio in a virtual environment (VE). If not, a page that says binder at the top will open. Wait for the VE to be built (this may take a few minutes).
 
 Within the VE, you can run scripts as you would on a local machine, or upload your Rmarkdown file and knit it to the desired output (pdf, html, etc.) If the output is successfully knitted, it means that you have *in principle* achieved reproducibility. If it cannot be knitted **but it worked on your local machine**, the first thing to check is if there are absolute paths ([explanation](https://www.redhat.com/sysadmin/linux-path-absolute-relative)) in your script. Change them to relative paths, and knitting should work again.
 
