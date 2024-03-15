@@ -4,5 +4,3 @@ dependencies:
   - r-base=4.2
   - r-rmarkdown
   - r-markdown
-  - texlive
-  - pdflatex
