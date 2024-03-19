@@ -9,3 +9,5 @@ Even if knitting an Rmd file works, there are several commands that you need to 
 1. `install.packages()`: when someone else tries to reproduce your output, you don't want this command to mess up their machine.
 2. `View()`: this is a command most suitable for interactive analysis i.e. you type in the console and results appear. Rmarkdown is designed for non-interactive output generation, so you should not include any `View()` in an Rmd file.
 3. `setwd()`: The issue with this command is related to that for absolute paths. Also, this command should be used interactively, either in the console, or substituted by clicking `Session` $\rightarrow$ `Set Working Directory` in RStudio.
+
+Acknowledgements go to [Matt Ingram](https://www.projecttier.org/person/mingram/) at [Project TIER](https://www.projecttier.org/).
