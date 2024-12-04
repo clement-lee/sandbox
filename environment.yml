@@ -1,8 +1,9 @@
 channels:
   - conda-forge
 dependencies:
-  - r-base=4.2
+  - r-base=4.4
   - r-rmarkdown
   - r-markdown
   - r-tinytex
+  - r-MASS
 
