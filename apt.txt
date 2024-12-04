@@ -4,3 +4,4 @@ texlive-latex-recommended
 texlive-xetex
 texlive-fonts-recommended
 lmodern
+libudunits2-dev
